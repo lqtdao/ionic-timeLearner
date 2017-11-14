@@ -12,7 +12,7 @@ export class HomePage {
   }
   ngAfterViewInit(){
 
-    var canvas = document.getElementById("canvas");
+    var canvas :any = document.getElementById("canvas");
     var ctx = canvas.getContext("2d");
     var radius = canvas.height / 2;
     ctx.translate(radius, radius);
